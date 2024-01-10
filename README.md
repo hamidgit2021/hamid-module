@@ -7,7 +7,7 @@
 
 module "hamid-module" {
 
-   source         = "./eks-module"
+   source         = "github.com/hamidgit2021/hamid-module.git"
 
    region         = "Enter your Providers region here"
 
