@@ -7,7 +7,7 @@
 
 module "hamid-module" {
 
-   source         = "./eks-module"
+   source         = "github.com/hamidgit2021/hamid-module.git"
 
    region         = "Enter your Providers region here"
 
@@ -25,9 +25,9 @@ module "hamid-module" {
 
    priv_two_cidr  = "10.0.4.0/24"
 
-   az_one         = "us-east-1a"
+   az_one         = "Enter your first az"
 
-   az_two         = "us-east-1b"
+   az_two         = "Enter your second az"
 
    vpc_id         = "aws_vpc.eks_vpc.id"
 
