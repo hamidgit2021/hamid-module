@@ -1,13 +1,10 @@
-<<<<<<< HEAD
-# MY NICE AND AWESOME TERRAFORM MODULE TO PROVISION EKS CLUSTER WITH CUSTOM NETWORKING AND LATEST EKS VERSION
+# MY NICE AND AWESOME TERRAFORM MODULE TO PROVISION EKS CLUSTER WITH CUSTOM NETWORKING AND LATEST EKS VERSION ---->
 
-=======
-# MY NICE AND AWESOME TERRAFORM MODULE TO PROVISION EKS CLUSTER WITH CUSTOM NETWORKING
->>>>>>> f4cd2bf75e7717c013b0b63f4d810f69b0f965e8
 # Sample usage:
 ~~~
 module "hamid-module" {
-   source         = "github.com/hamidgit2021/hamid-module.git"
+   source         = "github.com/hamidgit2021/hamid-module/aws"
+   version        = "1.0.1"
    region         = "Enter your Providers region here"
    vpc_cidr       = "10.0.0.0/16"
    dns_hostnames  = true
