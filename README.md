@@ -3,7 +3,7 @@
 # Sample usage:
 ~~~
 module "hamid-module" {
-   source         = "github.com/hamidgit2021/hamid-module/aws"
+   source         = "hamidgit2021/hamid-module/aws"
    version        = "1.0.1"
    region         = "Enter your Providers region here"
    vpc_cidr       = "10.0.0.0/16"
